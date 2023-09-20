@@ -10,8 +10,8 @@ class PrecompiledLoader extends Loader {
 
   getSource(name) {
     if (this.precompiled[name]) {
-      return {
-        src: {
+      return
+        src:
           type: 'code',
           obj: this.precompiled[name]
         },
