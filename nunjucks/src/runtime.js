@@ -136,7 +136,7 @@ function getKeywordArgs(args) {
       return lastArg;
     }
   }
-  return {};
+  return;
 }
 
 function numArgs(args) {
